@@ -44,14 +44,3 @@ console.log(valueNumner1)
 // "33" => 33
 // "33aab" => NaN
 // true => 1  false => 0
-
-let isLoggedIn1 = 1
-
-let booleanLoggerdIn = Boolean(isLoggedIn1)
-console.log(booleanLoggerdIn)
-
-let number1 = 33
-
-let strnumber = String(number1)
-console.log(strnumber)
-console.log(typeof strnumber)
