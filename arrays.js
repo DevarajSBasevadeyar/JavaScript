@@ -83,6 +83,16 @@ arrCopy.push('c');
 console.log(arrCopy)
 console.log(arr1)
 
+//Nested arrays
 
+let nums1 = [[2,4], [3,6], [4,8]]
+console.log(nums1[0][0])  //2
+console.log(nums1[2][1])  //8
+console.log(nums1[2][2])  //undefined
 
+//tic-tac-toe
+let game = [['X',null,'O'], [null,'X',null],['O',null,'X']]
+console.log(game)
 
+game[0][1] = 'O'
+console.log(game)
