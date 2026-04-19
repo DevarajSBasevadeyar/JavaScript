@@ -2,10 +2,10 @@
 //In JavaScript array is represented using [] and can store both homogeneous and heterogeneous data elements
 
 let nums = [10,20,30,40,50]
-console.log(nums)
+console.log(nums)  // [10,20,30,40,50]
 
 let arr = [10, 45.245, "JavaScript", true,60]
-console.log(arr)
+console.log(arr)   //[10, 45.245, "JavaScript", true,60]
 
 //Arrays are mutable
 nums[2] = 35
