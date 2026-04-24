@@ -117,3 +117,46 @@ vowel("Acaders")
 //     }
 // }
 // fun("apnacollege");
+
+// for-each method
+// arr.forEach(callBackFunction)
+
+//Higher order methods(fun) are methods which takes another method as a paremeter or it returns the another method as their input
+
+let arr = [2,4,6,8,10]
+arr.forEach(function myFun1(val){
+    console.log(val);
+}) 
+
+//using for-each loop
+arr.forEach((val)=>{
+    console.log(val)
+})
+
+let city = ["pune", "delhi", "mumbai"]
+city.forEach((val)=>{
+    console.log(val.toUpperCase())
+})
+
+// three parameters of callback function
+
+let city1 = ["pune", "delhi", "mumbai"]
+city.forEach((val,index)=>{
+    console.log(val.toUpperCase(),index,city1)
+})
+
+ // Question - for given array print square of each value using forEach metthod
+
+ let arr1 = [1,2,3,4,5];
+ arr1.forEach((val)=>{
+    console.log(val*val);  //or val**2
+ })
+
+
+ //Other way of callback
+
+let calcSquare = (val)=>{
+    console.log(val*val);  //or val**2
+ }
+
+ arr1.forEach(calcSquare)
