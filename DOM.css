@@ -1,0 +1,37 @@
+/* #heading{
+    color: blue;
+    background-color: yellow;
+}
+
+.heading{
+    color : green;
+    background-color: orange;
+}
+
+body{
+    background-color: pink;
+}
+
+button{
+    color: white;
+    background-color: blue;
+} */
+
+.box{
+    color: green;
+    background-color: pink;
+    
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+    margin: 5px;
+    text-align: center;
+}
+
+.content{
+    color: red;
+}
+
+.newClass{
+    background-color: green;
+}
